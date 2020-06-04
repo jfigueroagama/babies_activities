@@ -1,0 +1,7 @@
+Baby.create(name: "Antonio Garcia", birthday: DateTime.new(2020,2,1,17), mothers_name: "Maria Gomez", fathers_name: "Antonio Garcia", address: "CDMX", phone: "55-2324-7879")
+Baby.create(name: "Dolores Gomez", birthday: DateTime.new(2020,1,10,10), mothers_name: "Luz Marîa Perez", fathers_name: "Juan Gomez", address: "Guadalajara", phone: "55-2323-7111")
+Baby.create(name: "Maria Fernandez", birthday: DateTime.new(2020,2,5,11), mothers_name: "Lourdes Garcia", fathers_name: "Jose Luis Fernandez", address: "Monterrey", phone: "55-9780-3030")
+Baby.create(name: "Jose de la Cruz", birthday: DateTime.new(2020,1,20,21), mothers_name: "Dolores Figueroa", fathers_name: "Alberto de la Cruz", address: "CDMX", phone: "55-6768-4537")
+Baby.create(name: "Felipe Lopez", birthday: DateTime.new(2019,3,15,17), mothers_name: "Susana Garcia",fathers_name: "Juan Lppez", address: "La Paz", phone: "55-890-3057")
+Baby.create(name: "Antonio Perez", birthday: DateTime.new(2018,6,12,10), mothers_name: "Maria Gomez", fathers_name: "Benjamin Perez", address: "Colima", phone: "55-678-9076")
+Baby.create(name: "Daniela Figueroa", birthday: DateTime.new(2020,4,27,12), mothers_name: "Maria de la Cruz", fathers_name: "Pablo Figueroa", address: "Monterrey", phone: "55-342-2387")
