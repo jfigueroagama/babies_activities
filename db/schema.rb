@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_06_04_183431) do
   create_table "activity_logs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.datetime "start_time"
     t.datetime "stop_time"
-    t.datetime "duration"
+    t.string "duration"
     t.string "name"
     t.text "comment"
     t.bigint "baby_id", null: false

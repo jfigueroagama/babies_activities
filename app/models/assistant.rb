@@ -1,5 +1,5 @@
 class Assistant < ApplicationRecord
-    has_many :activity_logs
+    has_many :activity_logs, dependent: :destroy
 
     validates :name, presence: true
     validates :address, presence: true

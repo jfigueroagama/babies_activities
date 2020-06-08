@@ -1,4 +1,4 @@
-class Api::ActivityController < ApplicationController
+class Api::ActivitiesController < ApplicationController
     before_action :set_activity, only: [:show, :update, :destroy]
 
     # GET api/activities
